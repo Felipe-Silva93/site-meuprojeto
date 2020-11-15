@@ -1,0 +1,119 @@
+body{
+    font-family:arial,calibre,sans-serif;
+    margin:0;
+    background-color:#ccc;
+}
+
+    
+
+header{
+    background-image:url(../imagens/bg-1.jpg);
+    height:500px;
+    background-position:right center;
+    background-size:cover;
+    border-top:1px solid transparent;
+    margin:10px
+    
+}
+.card{
+    text-align:center;
+}
+
+.card h1{
+    
+    color:white;
+    margin-top:50px;
+    font-size:55px;
+    text-transform:uppercase;
+}
+.card p{
+    font-size:18px;
+    background-color:rgba(0,0,0,.7);
+    display:inline-block;
+    padding:15px 30px;
+    border-bottom:5px solid white;
+    color:white;
+}
+nav li{
+    display:inline-block;
+    list-style:none;
+    border:solid 2px white;
+    margin-left:10px;
+    
+}
+nav a{
+    display:block;
+    background:rgba(0,0,0,.4);
+    color:white;
+    text-decoration:none;
+    padding:10px;
+    text-transform:uppercase;
+    font-size:12px;
+    letter-spacing:10px;
+    
+}
+nav ul{
+    text-align:right;
+    margin:20px 10px 0 ;
+    
+}
+nav a:hover{
+    background:rgba(0,0,0,.5);
+    
+}
+main{
+    width:80%;
+    margin:auto;
+    
+}
+.consection{
+    background-color:white;
+    padding:10px;
+    margin-top:15px;
+    overflow: auto;
+    
+}
+
+
+
+.consection2{
+    background-color:white;
+    padding:15px;
+    margin-top:15px;
+    
+}
+.consection2 h2{
+    font-size:36px ;
+    background-color:#ccc;
+    border-bottom:solid 5px #676161;
+    text-align:center;
+    
+}
+footer{
+    text-align:center;
+    background-color:#454141;
+    padding:3px;
+    text-shadow:2px 2px 2px #ddd;
+    margin-top:10px;
+    color:white
+}
+.foto{
+    width:32%;
+    box-sizing:border-box;
+    float:left;   
+}
+.foto1,.foto2{
+    margin-right: 2%;
+}
+.foto img{
+    width:100%;
+    display:block;
+}
+.foto p{
+    background-color: #343434;
+    color:white;
+    margin:0;
+    padding:15px;
+    
+    
+}
